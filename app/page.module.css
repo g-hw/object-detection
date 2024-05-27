@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.bounding-box {
+  position: absolute;
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+}
+
+#container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
